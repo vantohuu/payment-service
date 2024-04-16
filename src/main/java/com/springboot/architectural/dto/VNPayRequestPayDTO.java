@@ -11,4 +11,8 @@ public class VNPayRequestPayDTO {
     private String bankCode;
     private Integer amount;
     private String language;
+    private String username;
+    private String movieId;
+    private String email;
+    private String movieName;
 }
