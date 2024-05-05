@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestHeader;
 
-@FeignClient(name = "serviceMainClient", url = "http://127.0.0.1:8080/api/external")
+@FeignClient(name = "serviceMainClient", url = "http://10.107.244.72:80/api/external")
 public interface IFeignClient {
     @GetMapping(value = "/verify-token-external-service")
     String sendToken(@RequestHeader("Authorization") String serviceAuthToken);

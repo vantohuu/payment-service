@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.springboot.architectural.ArchitecturalApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.44 s -- in com.springboot.architectural.ArchitecturalApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 57.82 s -- in com.springboot.architectural.ArchitecturalApplicationTests
